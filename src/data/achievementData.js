@@ -3,19 +3,19 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
+            title : 'React - The Complete Guide',
             details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            date : 'June, 2021',
+            link: "https://udemy-certificate.s3.amazonaws.com/image/UC-4068aa59-d533-40ab-8264-e77639610ddf.jpg?v=1624550651000",
+            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-4068aa59-d533-40ab-8264-e77639610ddf.jpg?v=1624550651000'
         },
         {
             id : 2,
-            title : 'AWS Certification',
+            title : 'Frontend Development with React',
             details : 'Validate technical skills and cloud expertise to grow your career and business.',
             date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            link: "https://drive.google.com/file/d/1RqzhzdvYej58iJZ6Nm42PMLkgjSCsoup/view?usp=sharing",
+            image : 'https://udemy-certificate.s3.amazonaws.com/image/UC-4068aa59-d533-40ab-8264-e77639610ddf.jpg?v=1624550651000'
         },
         {
             id : 3,

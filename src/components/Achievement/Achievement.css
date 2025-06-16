@@ -96,6 +96,7 @@
     font-size: 1.225rem;
     line-height: 110%;
     margin-bottom: 6px;
+    cursor: pointer;
 }
 
 .achievecard-details1 p {

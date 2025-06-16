@@ -57,7 +57,12 @@ import selenium from '../assets/svg/skills/selenium.svg'
 import strapi from '../assets/svg/skills/strapi.svg'
 import tensorflow from '../assets/svg/skills/tensorflow.svg'
 import webix from '../assets/svg/skills/webix.svg'
-import wordpress from '../assets/svg/skills/wordpress.svg'
+import wordpress from '../assets/svg/skills/wordpress.svg';
+import chatgpt from '../assets/svg/skills/chatgpt.svg'
+import express from '../assets/svg/skills/Express.svg';
+import copilot from "../assets/svg/skills/Githubcopilot.svg";
+import github from "../assets/svg/skills/GitHub.svg";
+import nodejs from '../assets/svg/skills/Nodejs.svg';
 
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
@@ -177,8 +182,6 @@ export const skillsImage = (skill) => {
             return graphql;
         case 'lightroom':
             return lightroom;
-        case 'materialui':
-            return materialui;
         case 'nginx':
             return nginx;
         case 'numpy':
@@ -227,6 +230,18 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'nodejs':
+            return nodejs;
+        case 'github':
+            return github;
+        case 'github copilot':
+            return copilot;
+        case 'expressjs':
+            return express;
+        case 'chatgpt':
+            return chatgpt;
+        case 'materialui':
+            return materialui;
         default:
             break;
     }

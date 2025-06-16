@@ -1,9 +1,10 @@
 import resume from '../assets/pdf/resume.pdf'
+import aarthi from "../assets/aarthi_dp.png"
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
+    name: 'Aarthipriya',
+    title: "MERN Stack Developer",
+    desciption:"There was calm in the code, but she knew better. The silence before the logic unfolds. The moment before design turns into interaction. She wasn’t just writing lines—she was building stories in pixels.",
+    image: aarthi,
     resumePdf: resume
 }

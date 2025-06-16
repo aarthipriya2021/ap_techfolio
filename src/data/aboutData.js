@@ -1,6 +1,8 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "My name's Jane. I'm a web designer and developer based in Southampton, UK.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
-    image: 2
-}
+  title: "Who I am",
+  description1:
+    "Hi, I’m Aarthi — a MERN stack developer based in Tamilnadu, India.",
+  description2:
+    "I specialize in building responsive web applications using the MERN stack (MongoDB, Express, React, Node.js). I have 1 year of experience in frontend UI development at SearchBlox Software Inc, where I worked on real-time projects, UI design, and client demos.I  love turning ideas into clean, functional, and user-friendly web interfaces.  I’m not here to rush. I’m here to grow, build, and glow. 🌱💻",
+  image: 2,
+};
