@@ -11,7 +11,6 @@ import {
   Experience,
   Contacts,
   Projects,
-  Services,
   Achievement,
 } from "../../components";
 import { headerData } from "../../data/headerData";

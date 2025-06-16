@@ -24,8 +24,8 @@ function Contacts() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
-    const [success, setSuccess] = useState(false);
-    const [errMsg, setErrMsg] = useState('');
+    // const [success, setSuccess] = useState(false);
+    // const [errMsg, setErrMsg] = useState('');
 
     const { theme } = useContext(ThemeContext);
 
@@ -183,27 +183,27 @@ function Contacts() {
                                     type='button'
                                     className={classes.submitBtn}
                                 >
-                                    <p>{!success ? 'Send' : 'Sent'}</p>
+                                    <p>Send</p>
                                     <div className='submit-icon'>
                                         <AiOutlineSend
                                             className='send-icon'
-                                            style={{
-                                                animation: !success
-                                                    ? 'initial'
-                                                    : 'fly 0.8s linear both',
-                                                position: success
-                                                    ? 'absolute'
-                                                    : 'initial',
-                                            }}
+                                            // style={{
+                                            //     animation: !success
+                                            //         ? 'initial'
+                                            //         : 'fly 0.8s linear both',
+                                            //     position: success
+                                            //         ? 'absolute'
+                                            //         : 'initial',
+                                            // }}
                                         />
                                         <AiOutlineCheckCircle
                                             className='success-icon'
-                                            style={{
-                                                display: !success
-                                                    ? 'none'
-                                                    : 'inline-flex',
-                                                opacity: !success ? '0' : '1',
-                                            }}
+                                            // style={{
+                                            //     display: !success
+                                            //         ? 'none'
+                                            //         : 'inline-flex',
+                                            //     opacity: !success ? '0' : '1',
+                                            // }}
                                         />
                                     </div>
                                 </button>
@@ -236,7 +236,7 @@ function Contacts() {
                                     color: theme.secondary,
                                     fontFamily: 'var(--primaryFont)',
                                 }}
-                                message={errMsg}
+                                // message={errMsg}
                             />
                         </Snackbar>
                     </div>
