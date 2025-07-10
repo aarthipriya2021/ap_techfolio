@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/aarthipriya_ayyappan_fullstack_developer_resume.pdf'
 import aarthi from "../assets/aarthi_dp.png"
 
 export const headerData = {

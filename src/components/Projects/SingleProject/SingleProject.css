@@ -76,9 +76,9 @@
     font-family: var(--primaryFont);
 }
   
-.singleProject:hover .project--desc{
+/* .singleProject:hover .project--desc{
     transform: translate(-2%,40%);
-}
+} */
   
 .singleProject .project--lang{
     position: absolute;

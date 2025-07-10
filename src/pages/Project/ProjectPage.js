@@ -90,7 +90,7 @@ function ProjectPage() {
                                 key={project.id}
                                 id={project.id}
                                 name={project.projectName}
-                                desc={project.projectDesc}
+                                // desc={project.projectDesc}
                                 tags={project.tags}
                                 code={project.code}
                                 demo={project.demo}
