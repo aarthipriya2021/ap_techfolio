@@ -1,7 +1,7 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Searchblox Software Inc',
+        company: 'Searchblox Software Inc.',
         jobtitle: 'Frontend UI Trainee',
         startYear: '2021',
         endYear: '2022'
